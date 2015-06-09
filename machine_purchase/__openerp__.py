@@ -15,6 +15,7 @@
 #    along with this program.  If not, see http://www.gnu.org/licenses/.
 #
 ##############################################################################
+
 {
     'name': 'Machine Purchase',
     'version': '1.0',
@@ -24,6 +25,7 @@ This module allows to generate machines through purchase invoices.
     "author": "OdooMRP team,"
               "AvanzOSC,"
               "Serv. Tecnol. Avanzados - Pedro M. Baeza",
+              "Odoo Community Association (OCA)"
     'website': 'http://www.odoomrp.com',
     "depends": ['machine_manager', 'stock_account', 'purchase'],
     "category": "Generic Modules",

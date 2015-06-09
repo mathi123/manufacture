@@ -1,8 +1,12 @@
+# -*- coding: utf-8 -*-
+##############################################################################
+# For copyright and license notices, see __openerp__.py file in root directory
+##############################################################################
 
 from openerp import models, fields
 
 
-class stock_pack_operation(models.Model):
+class StockPackOperation(models.Model):
     _inherit = "stock.pack.operation"
 
     machine = fields.Many2one('machinery', string='Machine')
