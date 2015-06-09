@@ -24,8 +24,8 @@ This module allows to generate machines through purchase invoices.
     """,
     "author": "OdooMRP team,"
               "AvanzOSC,"
-              "Serv. Tecnol. Avanzados - Pedro M. Baeza",
-              "Odoo Community Association (OCA)"
+              "Serv. Tecnol. Avanzados - Pedro M. Baeza"
+              "Odoo Community Association (OCA)",
     'website': 'http://www.odoomrp.com',
     "depends": ['machine_manager', 'stock_account', 'purchase'],
     "category": "Generic Modules",
